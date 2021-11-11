@@ -1,0 +1,61 @@
+body{
+    background-image: url("background.jpg");
+}
+
+#heading{
+    background-color: blue;
+    color: white;
+    display: inline;
+    text-align:left;
+}
+
+#head{
+    width: 100%;
+}
+
+#instructions{
+    float: right;
+    font-size: 15px;
+    border: 2px solid blue;
+    background-color: green;
+    color:red ;
+}
+
+#footer{
+    line-height: 1;
+    width: 100%;
+    bottom: 0;
+    background-color: grey;
+    margin: 0px;
+}
+
+video{
+    background:url("game_console.png");
+    background-size:cover;
+    background-position: center;
+    padding: 25px;
+}
+
+.img-movement{
+display: inline-block;
+width: 45%;
+}
+
+.modal-dialog{
+width: 90%;
+}
+
+#play{
+    width: 20%;
+    height: 26px;
+    color: blue;
+    background-color: chartreuse;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+#status{
+    color: red;
+    background-color: blue;
+    font-weight: bolder;
+}
